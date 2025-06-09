@@ -5,7 +5,7 @@ function veriGetir(){
 
 return new Promise(resolve=>{
 
-fetch('http://localhost:5003/api/highschools')
+fetch('/api/highschools')
         .then(res => res.json())
         .then(data => {
           //console.log(data);
