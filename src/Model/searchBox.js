@@ -30,7 +30,7 @@ function bringList(selectedSchool){
 
   
 
-  fetch('http://localhost:5003/api/sendHighSchool', {
+  fetch('/api/sendHighSchool', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
